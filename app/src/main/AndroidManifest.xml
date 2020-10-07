@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.poly.duanmau">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cateicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/cateicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SachDetail"></activity>
+        <activity android:name=".TheLoaiDetail" />
+        <activity android:name=".HDCTActivity" />
+        <activity android:name=".ThemHDCTActivity" />
+        <activity android:name=".Them_Hoa_Don_Activity" />
+        <activity android:name=".Them_Sach_Activity" />
+        <activity android:name=".Them_Tloai_Activity" />
+        <activity android:name=".Them_Nd_Activity" />
+        <activity android:name=".NguoiDungDetail" />
+        <activity android:name=".ChangePassActivity" />
+        <activity android:name=".HoaDonActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ThongKeActivity" />
+        <activity android:name=".TopBookActivity" />
+        <activity android:name=".BookActivity" />
+        <activity android:name=".TheLoaiActivity" />
+        <activity android:name=".NguoiDungActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
